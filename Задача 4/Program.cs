@@ -1,9 +1,12 @@
-﻿int numberA, numberB, numberC;
+﻿// Напишите программу, которая принимает на вход три числа и выдает максимальное из этих чисел
+// Пример:
+// 2, 3, 7 -> 7
+int numberA, numberB, numberC;
 int max;
 
-numberA = 44;
-numberB = 5;
-numberC = 78;
+numberA = 45;
+numberB = 9;
+numberC = 79;
 
 max = numberA;
 
