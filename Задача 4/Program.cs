@@ -10,9 +10,9 @@ numberC = 79;
 
 max = numberA;
 
-if (max > numberB)
+if (max > numberB)  // либо более короткий if (max > numberB) max = numberB; 
 {
-    max = numberA;
+    max = numberA;  //                     if (max > numberC) max = numberC;
 }
 else
 {

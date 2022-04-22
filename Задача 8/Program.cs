@@ -8,9 +8,9 @@ int number, i;
 number = 16;
 i = 4;
 
-while (i <= number)
+while (i <= number) // либо условие (i <= number -1)
 {
-    if (i == number)
+    if (i == number) // либо (i == number || i == number -1)
         Console.Write($"{i}. ");
     else
         Console.Write($"{i}, ");
