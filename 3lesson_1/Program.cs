@@ -11,11 +11,11 @@ int length = number.Length;
 bool IsPalindrome()
 {
     for (int i = 0; i < length / 2; i++)
-        while (number[i] == number[length - 1])
+    if (number[i] != number[length - 1 - i])
         {
-            return true;
+            return false;
         }
-    return false;
+    return true;
 }
 
 if (IsPalindrome()) Console.WriteLine($"Число: {number} - палиндром");
